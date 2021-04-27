@@ -68,20 +68,32 @@ footer {
     text-align: left;
     font-size: 12px;
   }
+  nav {
+      float: none;
+      width: 100%;
+      padding: 10px;
+  }
   p {
     text-align: left;
     font-size: 12px;
   }
+  img {
+    width: 12px;
+    height: 12px;
+  }
+  td {
+    font-size: 12px;
+    width: 100%;
+    width: 10px;
+  }
 }
 
-@media screen and (max-width: 400px) {
-    nav {
-        float: none;
-        width: 100%;
-        padding: 10px;
-    }
-     img {
-       width: 12px;
-       height: 12px;
-     }
+
+
+@media only screen and (max-width: 400px) {
+  td {
+    font-size: 12px;
+    width: 100%;
+    width: 10px;
+  }
 }
